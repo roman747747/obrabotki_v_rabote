@@ -5173,7 +5173,6 @@
     <event>OnClose</event>
     <name>ПриЗакрытии</name>
   </handlers>
-  <windowOpeningMode>LockWholeInterface</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
