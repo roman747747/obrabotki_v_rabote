@@ -212,7 +212,6 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <font xsi:type="core:FontDef">
-            <faceName></faceName>
             <height>12.0</height>
           </font>
         </extInfo>
@@ -5173,6 +5172,7 @@
     <event>OnClose</event>
     <name>ПриЗакрытии</name>
   </handlers>
+  <windowOpeningMode>LockWholeInterface</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -5185,7 +5185,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessor.АРМПриемкаКлумбаОрдерный</types>
+      <types>ExternalDataProcessorObject.АРМПриемкаКлумбаОрдерный</types>
     </valueType>
     <view>
       <common>true</common>
@@ -5766,7 +5766,6 @@
       <mainTable>InformationRegister.КАБС_КонтрольРабочегоВремени.SliceLast</mainTable>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
-      <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>
   </attributes>
