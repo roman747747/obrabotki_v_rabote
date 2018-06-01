@@ -266,7 +266,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.АРМПриемка</types>
+      <types>ExternalDataProcessor.АРМПриемкаКлумбаОрдерный</types>
     </valueType>
     <view>
       <common>true</common>
