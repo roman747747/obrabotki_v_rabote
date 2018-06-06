@@ -5185,7 +5185,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.АРМПриемкаКлумбаОрдерный</types>
+      <types>ExternalDataProcessor.АРМПриемкаКлумбаОрдерный</types>
     </valueType>
     <view>
       <common>true</common>
@@ -6590,6 +6590,23 @@
         <common>true</common>
       </edit>
     </columns>
+  </attributes>
+  <attributes>
+    <name>ДокументРасходныйОрдерНаТоварыВозврат</name>
+    <title>
+      <key>ru</key>
+      <value>Документ расходный ордер на товары возврат</value>
+    </title>
+    <id>43</id>
+    <valueType>
+      <types>DocumentRef.РасходныйОрдерНаТовары</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>КомандаЗавершитьРаботу</name>
