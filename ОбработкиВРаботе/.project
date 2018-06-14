@@ -3,6 +3,7 @@
 	<name>ОбработкиВРаботе</name>
 	<comment></comment>
 	<projects>
+		<project>SrvrlocalhostRefkabstest</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

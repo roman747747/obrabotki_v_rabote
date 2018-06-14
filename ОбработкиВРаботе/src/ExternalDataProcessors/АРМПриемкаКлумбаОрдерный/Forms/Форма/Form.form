@@ -5177,7 +5177,6 @@
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
-  <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
@@ -6590,23 +6589,6 @@
         <common>true</common>
       </edit>
     </columns>
-  </attributes>
-  <attributes>
-    <name>ДокументРасходныйОрдерНаТоварыВозврат</name>
-    <title>
-      <key>ru</key>
-      <value>Документ расходный ордер на товары возврат</value>
-    </title>
-    <id>43</id>
-    <valueType>
-      <types>DocumentRef.РасходныйОрдерНаТовары</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
   </attributes>
   <formCommands>
     <name>КомандаЗавершитьРаботу</name>

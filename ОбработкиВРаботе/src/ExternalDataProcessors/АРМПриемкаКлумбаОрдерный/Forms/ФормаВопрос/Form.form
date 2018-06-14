@@ -266,7 +266,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.АРМПриемкаКлумбаОрдерный</types>
+      <types>ExternalDataProcessor.АРМПриемкаКлумбаОрдерный</types>
     </valueType>
     <view>
       <common>true</common>
@@ -302,6 +302,23 @@
     <id>3</id>
     <valueType>
       <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>РеквизитДокументСсылка</name>
+    <title>
+      <key>ru</key>
+      <value>Реквизит документ ссылка</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>DocumentRef.УпаковочныйЛист</types>
     </valueType>
     <view>
       <common>true</common>
