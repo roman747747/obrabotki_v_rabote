@@ -11,6 +11,16 @@
   <comment></comment>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="745d4a40-890a-4a2d-92e9-8b2466d94bc4"/>
   <defaultForm>ExternalDataProcessor.АРМПриемкаКлумбаОрдерный.Form.Форма</defaultForm>
+  <attributes uuid="d57e908f-48bc-4433-a6cd-e156d9837035">
+    <name>ФормироватьПеремещениеВозврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать перемещение возврат</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
   <tabularSections uuid="0cf30559-8074-491f-8c79-a0003a230c9a">
     <producedTypes>
       <objectType typeId="0b274c9c-0582-4dc5-b36c-6d13cd59e8d9" valueTypeId="aa39cdf3-2c48-46e3-a01e-cb4665193f1d"/>
