@@ -116,7 +116,7 @@
       <id>3</id>
       <title>
         <key>ru</key>
-        <value>Принять</value>
+        <value>Хороший</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -163,7 +163,7 @@
       <id>1</id>
       <title>
         <key>ru</key>
-        <value>Не принять</value>
+        <value>Плохой</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -266,7 +266,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.АРМПриемкаКлумбаОрдерный</types>
+      <types>ExternalDataProcessor.АРМПриемкаКлумбаОрдерный</types>
     </valueType>
     <view>
       <common>true</common>
