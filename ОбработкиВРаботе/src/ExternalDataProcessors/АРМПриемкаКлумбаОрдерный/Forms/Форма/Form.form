@@ -268,7 +268,6 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <font xsi:type="core:FontDef">
-            <faceName></faceName>
             <height>12.0</height>
           </font>
         </extInfo>
@@ -1718,7 +1717,7 @@
             <id>241</id>
             <title>
               <key>ru</key>
-              <value>Принято</value>
+              <value>Хороший</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1780,7 +1779,7 @@
             <id>259</id>
             <title>
               <key>ru</key>
-              <value>Не принято</value>
+              <value>Плохой</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -5540,6 +5539,53 @@
           <textEdit>true</textEdit>
         </extInfo>
       </items>
+      <items xsi:type="form:FormField">
+        <name>ПечататьПриходныйОрдер</name>
+        <id>472</id>
+        <title>
+          <key>ru</key>
+          <value>ПечататьПриходныйОрдер</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПечататьПриходныйОрдер</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ПечататьПриходныйОрдерРасширеннаяПодсказка</name>
+          <id>474</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ПечататьПриходныйОрдерКонтекстноеМеню</name>
+          <id>473</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -7375,6 +7421,24 @@
         <common>true</common>
       </edit>
     </columns>
+  </attributes>
+  <attributes>
+    <name>ПечататьПриходныйОрдер</name>
+    <title>
+      <key>ru</key>
+      <value>Печатать приходный ордер</value>
+    </title>
+    <id>43</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <savedData>true</savedData>
   </attributes>
   <formCommands>
     <name>КомандаЗавершитьРаботу</name>
