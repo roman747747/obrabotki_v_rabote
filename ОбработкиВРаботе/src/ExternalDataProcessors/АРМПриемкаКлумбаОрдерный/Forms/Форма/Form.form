@@ -5599,20 +5599,161 @@
       <items xsi:type="form:FormGroup">
         <name>СохраняемыНастройки</name>
         <id>483</id>
-        <items xsi:type="form:FormField">
-          <name>ФормироватьПеремещениеВозврат</name>
-          <id>500</id>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаПараметрыПриемки</name>
+          <id>512</id>
+          <items xsi:type="form:FormField">
+            <name>ФормироватьПеремещениеВозврат</name>
+            <id>500</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ФормироватьПеремещениеВозврат</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ФормироватьПеремещениеВозвратРасширеннаяПодсказка</name>
+              <id>502</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ФормироватьПеремещениеВозвратКонтекстноеМеню</name>
+              <id>501</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>CheckBoxField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ПараметрРазрешитьПриходоватьОтсутствующийВПеремещенииТовар</name>
+            <id>509</id>
+            <title>
+              <key>ru</key>
+              <value>Разрешить приходовать товар отсутствующий в перемещении</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ПараметрРазрешитьПриходоватьОтсутствующийВПеремещенииТовар</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ПараметрРазрешитьПриходоватьОтсутствующийВПеремещенииТоварРасширеннаяПодсказка</name>
+              <id>511</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ПараметрРазрешитьПриходоватьОтсутствующийВПеремещенииТоварКонтекстноеМеню</name>
+              <id>510</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>CheckBoxField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ПараметрТекстВопросаОЗавершенииПриемкиУЛсРасхождениями</name>
+            <id>514</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ПараметрТекстВопросаОЗавершенииПриемкиУЛсРасхождениями</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ПараметрТекстВопросаОЗавершенииПриемкиУЛсРасхождениямиРасширеннаяПодсказка</name>
+              <id>516</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ПараметрТекстВопросаОЗавершенииПриемкиУЛсРасхождениямиКонтекстноеМеню</name>
+              <id>515</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>ФормироватьПеремещениеВозврат</segments>
-          </dataPath>
+          <title>
+            <key>ru</key>
+            <value>Группа параметры приемки</value>
+          </title>
           <extendedTooltip>
-            <name>ФормироватьПеремещениеВозвратРасширеннаяПодсказка</name>
-            <id>502</id>
+            <name>ГруппаПараметрыПриемкиРасширеннаяПодсказка</name>
+            <id>513</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5625,22 +5766,16 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <contextMenu>
-            <name>ФормироватьПеремещениеВозвратКонтекстноеМеню</name>
-            <id>501</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>CheckBoxField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>HorizontalIfPossible</group>
+            <representation>WeakSeparation</representation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <showTitle>true</showTitle>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>DontUse</currentRowUse>
+          </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
           <name>ПечатныеФормыУпаковочногоЛиста</name>
@@ -7874,6 +8009,44 @@
     <settingsSavedData xsi:type="form:DataPath">
       <segments>ФормироватьПеремещениеВозврат</segments>
     </settingsSavedData>
+  </attributes>
+  <attributes>
+    <name>ПараметрРазрешитьПриходоватьОтсутствующийВПеремещенииТовар</name>
+    <title>
+      <key>ru</key>
+      <value>Разрешить приходовать отсутствующий в перемещении товар</value>
+    </title>
+    <id>53</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>ПараметрРазрешитьПриходоватьОтсутствующийВПеремещенииТовар</segments>
+    </settingsSavedData>
+  </attributes>
+  <attributes>
+    <name>ПараметрТекстВопросаОЗавершенииПриемкиУЛсРасхождениями</name>
+    <title>
+      <key>ru</key>
+      <value>Параметр текст вопроса о завершении приемки у лс расхождениями</value>
+    </title>
+    <id>54</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>КомандаЗавершитьРаботу</name>
