@@ -2021,7 +2021,6 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <representation>Tree</representation>
         <readOnly>true</readOnly>
         <changeRowSet>true</changeRowSet>
         <changeRowOrder>true</changeRowOrder>
@@ -5603,6 +5602,56 @@
           <name>ГруппаПараметрыПриемки</name>
           <id>512</id>
           <items xsi:type="form:FormField">
+            <name>СегментТоваровПринимаемыхПоштучно</name>
+            <id>517</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СегментТоваровПринимаемыхПоштучно</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>СегментТоваровПринимаемыхПоштучноРасширеннаяПодсказка</name>
+              <id>519</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>СегментТоваровПринимаемыхПоштучноКонтекстноеМеню</name>
+              <id>518</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
             <name>ФормироватьПеремещениеВозврат</name>
             <id>500</id>
             <visible>true</visible>
@@ -6736,6 +6785,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>ТоварыДерево.НомерСтроки</segments>
+    </notDefaultUseAlwaysAttributes>
     <columns>
       <name>Номенклатура</name>
       <title>
@@ -8047,6 +8099,60 @@
     <edit>
       <common>true</common>
     </edit>
+  </attributes>
+  <attributes>
+    <name>ТаблицаТоваровИзСегментаПринимаемыхШтучно</name>
+    <title>
+      <key>ru</key>
+      <value>Таблица товаров из сегмента принимаемых штучно</value>
+    </title>
+    <id>55</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>ЭлементСписка</name>
+      <title>
+        <key>ru</key>
+        <value>Элемент списка</value>
+      </title>
+      <id>57</id>
+      <valueType>
+        <types>CatalogRef.Номенклатура</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
+  <attributes>
+    <name>СегментТоваровПринимаемыхПоштучно</name>
+    <title>
+      <key>ru</key>
+      <value>Сегмент товаров принимаемых поштучно</value>
+    </title>
+    <id>56</id>
+    <valueType>
+      <types>CatalogRef.СегментыНоменклатуры</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>СегментТоваровПринимаемыхПоштучно</segments>
+    </settingsSavedData>
   </attributes>
   <formCommands>
     <name>КомандаЗавершитьРаботу</name>

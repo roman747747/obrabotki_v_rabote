@@ -157,6 +157,7 @@
         <height>50.0</height>
       </font>
       <picture xsi:type="form:FormPicture"/>
+      <toolTipRepresentation>None</toolTipRepresentation>
     </items>
     <items xsi:type="form:Button">
       <name>КомандаИстина</name>
@@ -204,6 +205,7 @@
         <height>50.0</height>
       </font>
       <picture xsi:type="form:FormPicture"/>
+      <toolTipRepresentation>None</toolTipRepresentation>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -336,7 +338,7 @@
     <id>1</id>
     <toolTip>
       <key>ru</key>
-      <value>Команда истина</value>
+      <value></value>
     </toolTip>
     <use>
       <common>true</common>
@@ -357,7 +359,7 @@
     <id>2</id>
     <toolTip>
       <key>ru</key>
-      <value>Команда ложь</value>
+      <value></value>
     </toolTip>
     <use>
       <common>true</common>
