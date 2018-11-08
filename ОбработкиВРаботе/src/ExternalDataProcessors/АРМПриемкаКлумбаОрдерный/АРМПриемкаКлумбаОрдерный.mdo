@@ -1094,4 +1094,22 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="f31ac2c9-1432-4e2c-9239-5c00f02aa3d1">
+    <name>ФормаПожалуйстаПодождите</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма пожалуйста подождите</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1da5a947-1aee-441b-8973-d7db45f13bb4">
+    <name>ЗвукТоварДобавлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Звук товар добавлен</value>
+    </synonym>
+    <comment>ЗвукТоварДобавлен.mp3</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
 </mdclass:ExternalDataProcessor>
