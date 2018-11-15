@@ -403,4 +403,12 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="022af0b0-771f-441f-8458-4443e3c8ce3b">
+    <name>ЗвукТоварДобавлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Звук товар добавлен</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
 </mdclass:ExternalDataProcessor>
