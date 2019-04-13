@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="671032f1-d4ce-4714-adf6-fb57f842032b">
+  <producedTypes>
+    <objectType typeId="be22d644-af75-4654-884e-3c7e9514aa96" valueTypeId="64d3624b-abb8-42f5-b8ff-a0f7131a5224"/>
+  </producedTypes>
+  <name>АРМРекламации</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ Рекламации</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="59f75eba-209b-442e-9f5b-445725f27e01"/>
+  <defaultForm>ExternalDataProcessor.АРМРекламации.Form.Форма</defaultForm>
+  <forms uuid="a8618469-2a48-4659-bcf0-04c074f6df85">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f47e62ae-ef30-4296-93d8-3a49a51e5858">
+    <name>ФормаПечатиУпаковочныйЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма печати упаковочный лист</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="48e8a11d-88a0-49f4-ae07-eaafeada2603">
+    <name>ФормаСозданияПеремещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма создания перемещения</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c9679b80-dfd1-4302-ae45-9f60bd019563">
+    <name>ПФ_УпаковочныйЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф упаковочный лист</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="a1020fc6-45c0-4857-b5f1-53b383f49f73">
+    <name>ПФ_УпаковочныйЛист_дляПЭ</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф упаковочный лист для ПЭ</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:ExternalDataProcessor>
