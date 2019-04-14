@@ -21,16 +21,6 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="f47e62ae-ef30-4296-93d8-3a49a51e5858">
-    <name>ФормаПечатиУпаковочныйЛист</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма печати упаковочный лист</value>
-    </synonym>
-    <comment></comment>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="48e8a11d-88a0-49f4-ae07-eaafeada2603">
     <name>ФормаСозданияПеремещения</name>
     <synonym>
@@ -41,20 +31,4 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="c9679b80-dfd1-4302-ae45-9f60bd019563">
-    <name>ПФ_УпаковочныйЛист</name>
-    <synonym>
-      <key>ru</key>
-      <value>П ф упаковочный лист</value>
-    </synonym>
-    <comment></comment>
-  </templates>
-  <templates uuid="a1020fc6-45c0-4857-b5f1-53b383f49f73">
-    <name>ПФ_УпаковочныйЛист_дляПЭ</name>
-    <synonym>
-      <key>ru</key>
-      <value>П ф упаковочный лист для ПЭ</value>
-    </synonym>
-    <comment></comment>
-  </templates>
 </mdclass:ExternalDataProcessor>
