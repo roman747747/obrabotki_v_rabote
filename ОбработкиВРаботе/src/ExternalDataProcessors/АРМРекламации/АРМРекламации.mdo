@@ -9,7 +9,7 @@
     <value>АРМ Рекламации</value>
   </synonym>
   <comment></comment>
-  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="59f75eba-209b-442e-9f5b-445725f27e01"/>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="6361adb5-d37e-4001-b953-092432a95ef3"/>
   <defaultForm>ExternalDataProcessor.АРМРекламации.Form.Форма</defaultForm>
   <forms uuid="a8618469-2a48-4659-bcf0-04c074f6df85">
     <name>Форма</name>
