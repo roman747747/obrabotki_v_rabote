@@ -1119,10 +1119,6 @@
               <event>Click</event>
               <name>Подключаемая_ДекорацияНажатие</name>
             </handlers>
-            <handlers>
-              <event>URLProcessing</event>
-              <name>ДекорацияПриемкаОбработкаНавигационнойСсылки</name>
-            </handlers>
             <horizontalAlign>Center</horizontalAlign>
             <verticalAlign>Center</verticalAlign>
           </extInfo>
@@ -10078,48 +10074,6 @@
     </extInfo>
   </attributes>
   <formCommands>
-    <name>КомандаКорректироватьОстатки</name>
-    <title>
-      <key>ru</key>
-      <value>Команда корректировать остатки</value>
-    </title>
-    <id>4</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Команда корректировать остатки</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КомандаКорректировать</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>КомандаПечатьУпаковочныйЛист</name>
-    <title>
-      <key>ru</key>
-      <value>Команда печать упаковочный лист</value>
-    </title>
-    <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Команда печать упаковочный лист</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КомандаПечатьУпаковочныйЛист</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>КомандаВыполнитьПриемку</name>
     <title>
       <key>ru</key>
@@ -10141,48 +10095,6 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>КомандаИспортитьТовар</name>
-    <title>
-      <key>ru</key>
-      <value>Команда испортить товар</value>
-    </title>
-    <id>5</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Команда испортить товар</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КомандаИспортитьТовар</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>НавигацияПриемка</name>
-    <title>
-      <key>ru</key>
-      <value>Навигация приемка</value>
-    </title>
-    <id>6</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Навигация приемка</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>НавигацияПриемка</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>НавигацияРасхождения</name>
     <title>
       <key>ru</key>
@@ -10196,69 +10108,6 @@
     <use>
       <common>true</common>
     </use>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>НавигацияПорча</name>
-    <title>
-      <key>ru</key>
-      <value>Навигация порча</value>
-    </title>
-    <id>8</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Навигация порча</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>НавигацияПорча</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>КомандаБрак</name>
-    <title>
-      <key>ru</key>
-      <value>Команда брак</value>
-    </title>
-    <id>9</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Команда брак</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КомандаБрак</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>КомандаПеремещение</name>
-    <title>
-      <key>ru</key>
-      <value>Команда перемещение</value>
-    </title>
-    <id>10</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Команда перемещение</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КомандаПеремещение</name>
-      </handler>
-    </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
@@ -10294,27 +10143,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КомандаНайтиНакладную</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>КомандаПереключитьРаскладку</name>
-    <title>
-      <key>ru</key>
-      <value>Команда переключить раскладку</value>
-    </title>
-    <id>15</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Команда переключить раскладку</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КомандаПереключитьРаскладку</name>
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
