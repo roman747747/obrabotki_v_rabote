@@ -1144,6 +1144,53 @@
           </dataPath>
           <titleLocation>Top</titleLocation>
           <items xsi:type="form:FormField">
+            <name>СписокПриемкаДокументПоступленияДата</name>
+            <id>1505</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Приемка.ДокументПоступления.Дата</segments>
+              </paths>
+            </dataPath>
+            <extendedTooltip>
+              <name>СписокПриемкаДокументПоступленияДатаРасширеннаяПодсказка</name>
+              <id>1507</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>СписокПриемкаДокументПоступленияДатаКонтекстноеМеню</name>
+              <id>1506</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>LabelField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <autoMaxHeight>true</autoMaxHeight>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
             <name>СписокПриемкаДокументПоступленияНомер</name>
             <id>1490</id>
             <visible>true</visible>
@@ -1192,53 +1239,6 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormField">
-            <name>СписокПриемкаДокументПоступленияДата</name>
-            <id>1505</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Приемка.ДокументПоступления.Дата</segments>
-              </paths>
-            </dataPath>
-            <extendedTooltip>
-              <name>СписокПриемкаДокументПоступленияДатаРасширеннаяПодсказка</name>
-              <id>1507</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>СписокПриемкаДокументПоступленияДатаКонтекстноеМеню</name>
-              <id>1506</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>LabelField</type>
-            <editMode>Enter</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:LabelFieldExtInfo">
-              <autoMaxHeight>true</autoMaxHeight>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -9006,7 +9006,6 @@
     <extInfo xsi:type="form:DynamicListExtInfo">
       <mainTable>AccumulationRegister.ТоварыКПоступлению.BalanceAndTurnovers</mainTable>
       <autoFillAvailableFields>true</autoFillAvailableFields>
-      <autoSaveUserSettings>true</autoSaveUserSettings>
     </extInfo>
   </attributes>
   <attributes>

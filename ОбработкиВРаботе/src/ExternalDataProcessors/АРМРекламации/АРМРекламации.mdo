@@ -21,14 +21,4 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="48e8a11d-88a0-49f4-ae07-eaafeada2603">
-    <name>ФормаСозданияПеремещения</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма создания перемещения</value>
-    </synonym>
-    <comment></comment>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:ExternalDataProcessor>
