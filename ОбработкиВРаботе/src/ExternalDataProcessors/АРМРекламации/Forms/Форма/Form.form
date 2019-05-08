@@ -50,7 +50,7 @@
       <extInfo xsi:type="form:LabelFieldExtInfo">
         <maxWidth>24</maxWidth>
         <borderColor xsi:type="core:ColorRef">
-          <color>Web.MediumGray</color>
+          <color>Style.НеЗаполненноеСубконто</color>
         </borderColor>
         <font xsi:type="core:FontRef">
           <font>Style.NormalTextFont</font>
@@ -254,7 +254,7 @@
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
           <textColor xsi:type="core:ColorRef">
-            <color>Web.SteelBlue</color>
+            <color>Style.ТекстИнформационнойНадписи</color>
           </textColor>
           <font xsi:type="core:FontRef">
             <font>Style.NormalTextFont</font>
@@ -1106,7 +1106,7 @@
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
           <textColor xsi:type="core:ColorRef">
-            <color>Web.SteelBlue</color>
+            <color>Style.ТекстИнформационнойНадписи</color>
           </textColor>
           <font xsi:type="core:FontRef">
             <font>Style.NormalTextFont</font>
@@ -1143,53 +1143,6 @@
             <segments>Приемка</segments>
           </dataPath>
           <titleLocation>Top</titleLocation>
-          <items xsi:type="form:FormField">
-            <name>СписокПриемкаДокументПоступленияДата</name>
-            <id>1505</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Приемка.ДокументПоступления.Дата</segments>
-              </paths>
-            </dataPath>
-            <extendedTooltip>
-              <name>СписокПриемкаДокументПоступленияДатаРасширеннаяПодсказка</name>
-              <id>1507</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>СписокПриемкаДокументПоступленияДатаКонтекстноеМеню</name>
-              <id>1506</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>LabelField</type>
-            <editMode>Enter</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:LabelFieldExtInfo">
-              <autoMaxHeight>true</autoMaxHeight>
-            </extInfo>
-          </items>
           <items xsi:type="form:FormField">
             <name>СписокПриемкаДокументПоступленияНомер</name>
             <id>1490</id>
@@ -1239,6 +1192,53 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>СписокПриемкаДокументПоступленияДата</name>
+            <id>1505</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Приемка.ДокументПоступления.Дата</segments>
+              </paths>
+            </dataPath>
+            <extendedTooltip>
+              <name>СписокПриемкаДокументПоступленияДатаРасширеннаяПодсказка</name>
+              <id>1507</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>СписокПриемкаДокументПоступленияДатаКонтекстноеМеню</name>
+              <id>1506</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>LabelField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:LabelFieldExtInfo">
+              <autoMaxHeight>true</autoMaxHeight>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -1760,7 +1760,7 @@
               <horizontalStretch>true</horizontalStretch>
               <verticalStretch>false</verticalStretch>
               <textColor xsi:type="core:ColorRef">
-                <color>Web.SteelBlue</color>
+                <color>Style.ТекстИнформационнойНадписи</color>
               </textColor>
               <font xsi:type="core:FontRef">
                 <font>Style.NormalTextFont</font>
@@ -2892,7 +2892,7 @@
                 <value>Распределите количество стеблей из пачки по качеству</value>
               </title>
               <titleTextColor xsi:type="core:ColorRef">
-                <color>Web.SteelBlue</color>
+                <color>Style.ТекстИнформационнойНадписи</color>
               </titleTextColor>
               <titleFont xsi:type="core:FontRef">
                 <font>Style.NormalTextFont</font>
@@ -3015,7 +3015,7 @@
 </value>
               </title>
               <titleTextColor xsi:type="core:ColorRef">
-                <color>Web.SteelBlue</color>
+                <color>Style.ТекстИнформационнойНадписи</color>
               </titleTextColor>
               <titleFont xsi:type="core:FontRef">
                 <font>Style.NormalTextFont</font>
@@ -3923,7 +3923,7 @@
               <height>18.0</height>
             </font>
             <borderColor xsi:type="core:ColorRef">
-              <color>Web.MediumGray</color>
+              <color>Style.ЗакрытыйДокумент</color>
             </borderColor>
           </extInfo>
         </items>
@@ -3969,7 +3969,7 @@
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
           <textColor xsi:type="core:ColorRef">
-            <color>Web.SteelBlue</color>
+            <color>Style.ТекстИнформационнойНадписи</color>
           </textColor>
           <font xsi:type="core:FontRef">
             <font>Style.NormalTextFont</font>
@@ -5215,7 +5215,7 @@
               </contextMenu>
               <type>Label</type>
               <textColor xsi:type="core:ColorRef">
-                <color>Web.SteelBlue</color>
+                <color>Style.ТекстИнформационнойНадписи</color>
               </textColor>
               <font xsi:type="core:FontRef">
                 <font>Style.NormalTextFont</font>
@@ -6665,7 +6665,7 @@
               </contextMenu>
               <type>Label</type>
               <textColor xsi:type="core:ColorRef">
-                <color>Web.SteelBlue</color>
+                <color>Style.ТекстИнформационнойНадписи</color>
               </textColor>
               <font xsi:type="core:FontRef">
                 <font>Style.NormalTextFont</font>
@@ -6763,7 +6763,7 @@
                 <value>Распределите количество стеблей из прихода по качеству</value>
               </title>
               <titleTextColor xsi:type="core:ColorRef">
-                <color>Web.SteelBlue</color>
+                <color>Style.ТекстИнформационнойНадписи</color>
               </titleTextColor>
               <titleFont xsi:type="core:FontRef">
                 <font>Style.NormalTextFont</font>
@@ -9006,6 +9006,7 @@
     <extInfo xsi:type="form:DynamicListExtInfo">
       <mainTable>AccumulationRegister.ТоварыКПоступлению.BalanceAndTurnovers</mainTable>
       <autoFillAvailableFields>true</autoFillAvailableFields>
+      <autoSaveUserSettings>true</autoSaveUserSettings>
     </extInfo>
   </attributes>
   <attributes>
