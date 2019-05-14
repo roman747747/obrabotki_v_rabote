@@ -1144,21 +1144,23 @@
           </dataPath>
           <titleLocation>Top</titleLocation>
           <items xsi:type="form:FormField">
-            <name>СписокПриемкаДокументПоступленияНомер</name>
-            <id>1490</id>
+            <name>Дата</name>
+            <id>1544</id>
+            <title>
+              <key>ru</key>
+              <value>Дата</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Приемка.ДокументПоступления.Номер</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Приемка.ДатаДокументаПоступления</segments>
             </dataPath>
             <extendedTooltip>
-              <name>СписокПриемкаДокументПоступленияНомерРасширеннаяПодсказка</name>
-              <id>1492</id>
+              <name>ДатаРасширеннаяПодсказка</name>
+              <id>1546</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1172,8 +1174,8 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>СписокПриемкаДокументПоступленияНомерКонтекстноеМеню</name>
-              <id>1491</id>
+              <name>ДатаКонтекстноеМеню</name>
+              <id>1545</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1187,6 +1189,7 @@
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
               <chooseType>true</chooseType>
@@ -1195,21 +1198,23 @@
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
-            <name>СписокПриемкаДокументПоступленияДата</name>
-            <id>1505</id>
+            <name>Номер</name>
+            <id>1550</id>
+            <title>
+              <key>ru</key>
+              <value>Номер</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Приемка.ДокументПоступления.Дата</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Приемка.НомерДокументаПоступления</segments>
             </dataPath>
             <extendedTooltip>
-              <name>СписокПриемкаДокументПоступленияДатаРасширеннаяПодсказка</name>
-              <id>1507</id>
+              <name>НомерРасширеннаяПодсказка</name>
+              <id>1552</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1223,8 +1228,8 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>СписокПриемкаДокументПоступленияДатаКонтекстноеМеню</name>
-              <id>1506</id>
+              <name>НомерКонтекстноеМеню</name>
+              <id>1551</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1232,13 +1237,18 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
-            <type>LabelField</type>
+            <type>InputField</type>
             <editMode>Enter</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:LabelFieldExtInfo">
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -1435,10 +1445,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>Приемка.КПоступлениюClosingBalance</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Приемка.КПоступлениюКонечныйОстаток</segments>
             </dataPath>
             <extendedTooltip>
               <name>СписокПриемкаКПоступлениюОстатокРасширеннаяПодсказка</name>
@@ -9003,10 +9011,33 @@
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Приемка.ПринимаетсяReceipt</segments>
     </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Приемка.ДокументПоступления.Номер</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Приемка.ДатаДокументаПоступления</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Приемка.НомерДокументаПоступления</segments>
+    </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <mainTable>AccumulationRegister.ТоварыКПоступлению.BalanceAndTurnovers</mainTable>
+      <queryText>ВЫБРАТЬ
+	Выразить(ОстаткиИОбороты.ДокументПоступления КАК Документ.ПеремещениеТоваров) КАК ДокументПоступления,
+	Выразить(ОстаткиИОбороты.ДокументПоступления КАК Документ.ПеремещениеТоваров).Дата КАК ДатаДокументаПоступления,
+	Выразить(ОстаткиИОбороты.ДокументПоступления КАК Документ.ПеремещениеТоваров).Номер КАК НомерДокументаПоступления,
+	ОстаткиИОбороты.Номенклатура,
+	ОстаткиИОбороты.Характеристика,
+	ОстаткиИОбороты.Склад,
+	ОстаткиИОбороты.КПоступлениюОборот КАК КПоступлениюОборот,
+	ОстаткиИОбороты.КПоступлениюПриход КАК КПоступлениюПриход,
+	ОстаткиИОбороты.КПоступлениюРасход КАК КПоступлениюРасход,
+	ОстаткиИОбороты.КПоступлениюНачальныйОстаток КАК КПоступлениюНачальныйОстаток,
+	ОстаткиИОбороты.КПоступлениюКонечныйОстаток КАК КПоступлениюКонечныйОстаток,
+	ОстаткиИОбороты.ПринимаетсяПриход КАК ПринимаетсяПриход
+ИЗ
+	РегистрНакопления.ТоварыКПоступлению.ОстаткиИОбороты(,,,,) КАК ОстаткиИОбороты</queryText>
       <autoFillAvailableFields>true</autoFillAvailableFields>
-      <autoSaveUserSettings>true</autoSaveUserSettings>
+      <customQuery>true</customQuery>
     </extInfo>
   </attributes>
   <attributes>
