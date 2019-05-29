@@ -2,12 +2,6 @@
 <Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
 	<filter>
 		<viewMode>Normal</viewMode>
-		<userSettingPresentation xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content/>
-			</v8:item>
-		</userSettingPresentation>
 	</filter>
 	<order>
 		<item xsi:type="OrderItemField">
@@ -15,29 +9,12 @@
 			<orderType>Desc</orderType>
 		</item>
 		<viewMode>Normal</viewMode>
-		<userSettingPresentation xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content/>
-			</v8:item>
-		</userSettingPresentation>
+		<userSettingID>826e46ef-4c5e-489b-a09b-a2fbb9969c78</userSettingID>
 	</order>
 	<conditionalAppearance>
 		<viewMode>Normal</viewMode>
-		<userSettingPresentation xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content/>
-			</v8:item>
-		</userSettingPresentation>
 	</conditionalAppearance>
 	<item xsi:type="StructureItemGroup">
 	</item>
 	<itemsViewMode>Normal</itemsViewMode>
-	<itemsUserSettingPresentation xsi:type="v8:LocalStringType">
-		<v8:item>
-			<v8:lang>ru</v8:lang>
-			<v8:content/>
-		</v8:item>
-	</itemsUserSettingPresentation>
 </Settings>

@@ -1648,6 +1648,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
+          <changeRowOrder>true</changeRowOrder>
           <autoMaxWidth>true</autoMaxWidth>
           <maxHeight>10</maxHeight>
           <heightInTableRows>1</heightInTableRows>
