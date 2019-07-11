@@ -1155,8 +1155,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Приемка.ДатаДокументаПоступления</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Приемка.ДатаДокументаПоступления</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>ДатаРасширеннаяПодсказка</name>
@@ -1209,8 +1211,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Приемка.НомерДокументаПоступления</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Приемка.НомерДокументаПоступления</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>НомерРасширеннаяПодсказка</name>
@@ -1445,8 +1449,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Приемка.КПоступлениюКонечныйОстаток</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>Приемка.КПоступлениюКонечныйОстаток</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>СписокПриемкаКПоступлениюОстатокРасширеннаяПодсказка</name>
@@ -5320,24 +5326,14 @@
               </dataPath>
               <titleLocation>Top</titleLocation>
               <excludedCommands>CancelSearch</excludedCommands>
-              <excludedCommands>Change</excludedCommands>
-              <excludedCommands>Choose</excludedCommands>
-              <excludedCommands>Copy</excludedCommands>
-              <excludedCommands>CopyToClipboard</excludedCommands>
-              <excludedCommands>Create</excludedCommands>
-              <excludedCommands>Delete</excludedCommands>
               <excludedCommands>DynamicListStandardSettings</excludedCommands>
               <excludedCommands>Find</excludedCommands>
               <excludedCommands>FindByCurrentValue</excludedCommands>
               <excludedCommands>ListSettings</excludedCommands>
               <excludedCommands>LoadDynamicListSettings</excludedCommands>
               <excludedCommands>OutputList</excludedCommands>
-              <excludedCommands>Post</excludedCommands>
               <excludedCommands>SaveDynamicListSettings</excludedCommands>
               <excludedCommands>SearchHistory</excludedCommands>
-              <excludedCommands>SetDateInterval</excludedCommands>
-              <excludedCommands>SetDeletionMark</excludedCommands>
-              <excludedCommands>UndoPosting</excludedCommands>
               <items xsi:type="form:FormField">
                 <name>ПриходныеОрдераДата</name>
                 <id>1412</id>
@@ -8834,7 +8830,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessor.АРМРекламации</types>
+      <types>ExternalDataProcessorObject.АРМРекламации</types>
     </valueType>
     <view>
       <common>true</common>
@@ -9006,17 +9002,21 @@
     <edit>
       <common>true</common>
     </edit>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Приемка.ДокументПоступления</segments>
+    <notDefaultUseAlwaysAttributes xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Приемка.Номер</segments>
+      </paths>
     </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Приемка.ПринимаетсяReceipt</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Приемка.ДокументПоступления.Номер</segments>
+    <notDefaultUseAlwaysAttributes xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Приемка.ПринимаетсяReceipt</segments>
+      </paths>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Приемка.ДатаДокументаПоступления</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Приемка.ДокументПоступления</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Приемка.НомерДокументаПоступления</segments>
@@ -9569,7 +9569,7 @@
       <segments>ПриходныеОрдера.Ссылка</segments>
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <queryText>ВЫБРАТЬ
+      <queryText>ВЫБРАТЬ Разрешенные
 	ПриходныйОрдерНаТовары.Ссылка КАК Ссылка,
 	ПриходныйОрдерНаТовары.Дата КАК Дата,
 	ПриходныйОрдерНаТовары.Номер КАК Номер,
@@ -9579,8 +9579,6 @@
 	ПриходныйОрдерНаТовары.Распоряжение.ДокументОснование КАК ЗаказПоставщику
 ИЗ
 	Документ.ПриходныйОрдерНаТовары КАК ПриходныйОрдерНаТовары</queryText>
-      <mainTable>Document.ПриходныйОрдерНаТовары</mainTable>
-      <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>

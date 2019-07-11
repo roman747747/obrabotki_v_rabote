@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
-  <title>
-    <key>ru</key>
-    <value></value>
-  </title>
   <items xsi:type="form:FormField">
     <name>ВводимоеЗначение</name>
     <id>7</id>
@@ -16,8 +12,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ВводимоеЗначение</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ВводимоеЗначение</segments>
+      </paths>
     </dataPath>
     <titleLocation>Top</titleLocation>
     <extendedTooltip>
@@ -147,7 +145,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessor.АРМРекламации</types>
+      <types>ExternalDataProcessorObject.АРМРекламации</types>
     </valueType>
     <view>
       <common>true</common>
@@ -184,10 +182,6 @@
       <value>Печать этикетки</value>
     </title>
     <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value></value>
-    </toolTip>
     <use>
       <common>true</common>
     </use>
