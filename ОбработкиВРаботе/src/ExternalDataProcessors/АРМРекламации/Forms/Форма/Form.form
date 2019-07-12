@@ -8830,7 +8830,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.АРМРекламации</types>
+      <types>ExternalDataProcessor.АРМРекламации</types>
     </valueType>
     <view>
       <common>true</common>
