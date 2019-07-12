@@ -153,10 +153,6 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:LabelFieldExtInfo">
-        <handlers>
-          <event>Click</event>
-          <name>ДокументОснованиеНажатие</name>
-        </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
       </extInfo>
@@ -6718,10 +6714,6 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <handlers>
-    <event>ActivationProcessing</event>
-    <name>ОбработкаАктивизации</name>
-  </handlers>
-  <handlers>
     <event>OnClose</event>
     <name>ПриЗакрытии</name>
   </handlers>
@@ -8485,48 +8477,6 @@
     <use>
       <common>true</common>
     </use>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>Возврат</name>
-    <title>
-      <key>ru</key>
-      <value>Возврат</value>
-    </title>
-    <id>8</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Возврат</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВыборЭтапаВозврат</name>
-      </handler>
-    </action>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>Приёмка</name>
-    <title>
-      <key>ru</key>
-      <value>Приёмка</value>
-    </title>
-    <id>9</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Приёмка</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВыборЭтапаПриёмка</name>
-      </handler>
-    </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
