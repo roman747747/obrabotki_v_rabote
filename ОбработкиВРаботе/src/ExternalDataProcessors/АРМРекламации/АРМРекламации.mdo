@@ -28,4 +28,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="7928441e-31b6-4a6b-ab2c-d4e02026de14">
+    <name>ФормаВыбораПлантации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора плантации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:ExternalDataProcessor>

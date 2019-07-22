@@ -10250,6 +10250,57 @@
       </edit>
     </columns>
   </attributes>
+  <attributes>
+    <name>Плантация</name>
+    <title>
+      <key>ru</key>
+      <value>Плантация</value>
+    </title>
+    <id>44</id>
+    <valueType>
+      <types>CatalogRef.Плантации</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТекущаяПлантация</name>
+    <title>
+      <key>ru</key>
+      <value>Текущая плантация</value>
+    </title>
+    <id>45</id>
+    <valueType>
+      <types>CatalogRef.Плантации</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ДопСведениеПлантация</name>
+    <title>
+      <key>ru</key>
+      <value>Доп сведение плантация</value>
+    </title>
+    <id>46</id>
+    <valueType>
+      <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>КомандаВыполнитьПриемку</name>
     <title>
