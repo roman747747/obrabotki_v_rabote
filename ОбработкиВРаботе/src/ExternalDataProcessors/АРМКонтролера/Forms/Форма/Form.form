@@ -13,8 +13,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ПолеХТМЛДокументаДляЗвукаСтрока</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ПолеХТМЛДокументаДляЗвукаСтрока</segments>
+        </paths>
       </dataPath>
       <skipOnInput>true</skipOnInput>
       <titleLocation>None</titleLocation>
@@ -1912,6 +1914,376 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
+      <name>СтраницаЗавСклад</name>
+      <id>594</id>
+      <items xsi:type="form:Decoration">
+        <name>ДекорацияШККонтроллера</name>
+        <id>596</id>
+        <title>
+          <key>ru</key>
+          <value>Cчитайте штрихкод контроллера</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ДекорацияШККонтроллераРасширеннаяПодсказка</name>
+          <id>598</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДекорацияШККонтроллераКонтекстноеМеню</name>
+          <id>597</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <horizontalStretch>true</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
+        <textColor xsi:type="core:ColorRef">
+          <color>Style.ТекстИнформационнойНадписи</color>
+        </textColor>
+        <font xsi:type="core:FontRef">
+          <font>Style.NormalTextFont</font>
+          <height>18.0</height>
+        </font>
+        <groupHorizontalAlign>Center</groupHorizontalAlign>
+        <groupVerticalAlign>Center</groupVerticalAlign>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <nonselectedPictureText>
+            <key>ru</key>
+            <value>Cчитайте штрихкод контроллера</value>
+          </nonselectedPictureText>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Страница завсклад</value>
+      </title>
+      <extendedTooltip>
+        <name>СтраницаЗавСкладРасширеннаяПодсказка</name>
+        <id>595</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo">
+        <group>Vertical</group>
+        <showTitle>true</showTitle>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>СтраницаПеремещениеЗаказаАРМ</name>
+      <id>609</id>
+      <items xsi:type="form:Decoration">
+        <name>ДекорацияШКЗаказНаПеремещение</name>
+        <id>601</id>
+        <title>
+          <key>ru</key>
+          <value>Считайте штрихкод заказа на перемещение</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ДекорацияШКЗаказНаПеремещениеРасширеннаяПодсказка</name>
+          <id>603</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДекорацияШКЗаказНаПеремещениеКонтекстноеМеню</name>
+          <id>602</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <horizontalStretch>true</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
+        <textColor xsi:type="core:ColorRef">
+          <color>Style.ТекстИнформационнойНадписи</color>
+        </textColor>
+        <font xsi:type="core:FontRef">
+          <font>Style.NormalTextFont</font>
+          <height>18.0</height>
+        </font>
+        <groupHorizontalAlign>Center</groupHorizontalAlign>
+        <groupVerticalAlign>Center</groupVerticalAlign>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <nonselectedPictureText>
+            <key>ru</key>
+            <value>Считайте штрихкод заказа на перемещение</value>
+          </nonselectedPictureText>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Страница перемещение заказа АРМ</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Страница перемещение заказа АРМ</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>СтраницаПеремещениеЗаказаАРМРасширеннаяПодсказка</name>
+        <id>610</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo">
+        <group>Vertical</group>
+        <showTitle>true</showTitle>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>СтраницаКнопкаПереместитьЗаказ</name>
+      <id>611</id>
+      <items xsi:type="form:Decoration">
+        <name>ДекорацияТекущийЗаказ</name>
+        <id>604</id>
+        <title>
+          <key>ru</key>
+          <value>Для перемещения заказа на данный АРМ
+необходимо нажать кнопку &quot;Переместить заказ&quot;</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ДекорацияТекущийЗаказРасширеннаяПодсказка</name>
+          <id>606</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДекорацияТекущийЗаказКонтекстноеМеню</name>
+          <id>605</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <horizontalStretch>true</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
+        <textColor xsi:type="core:ColorRef">
+          <color>Style.ТекстИнформационнойНадписи</color>
+        </textColor>
+        <font xsi:type="core:FontRef">
+          <font>Style.NormalTextFont</font>
+          <height>18.0</height>
+        </font>
+        <groupHorizontalAlign>Center</groupHorizontalAlign>
+        <groupVerticalAlign>Center</groupVerticalAlign>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <nonselectedPictureText>
+            <key>ru</key>
+            <value>Для перемещения заказа на текущее рабочее место
+необходимо нажать кнопку &quot;Переместить заказ&quot;</value>
+          </nonselectedPictureText>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Страница кнопка переместить заказ</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Страница кнопка переместить заказ</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>СтраницаКнопкаПереместитьЗаказРасширеннаяПодсказка</name>
+        <id>612</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo">
+        <group>Vertical</group>
+        <showTitle>true</showTitle>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>СтраницаЗаказПеремещен</name>
+      <id>613</id>
+      <items xsi:type="form:Decoration">
+        <name>ДекорацияЗаказПеремещен</name>
+        <id>615</id>
+        <title>
+          <key>ru</key>
+          <value>Заказ перемещен на текущее рабочее место</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ДекорацияЗаказПеремещенРасширеннаяПодсказка</name>
+          <id>617</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДекорацияЗаказПеремещенКонтекстноеМеню</name>
+          <id>616</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <horizontalStretch>true</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
+        <textColor xsi:type="core:ColorRef">
+          <color>Web.MediumSeaGreen</color>
+        </textColor>
+        <font xsi:type="core:FontRef">
+          <font>Style.NormalTextFont</font>
+          <height>25.0</height>
+          <bold>true</bold>
+          <italic>false</italic>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+        </font>
+        <groupHorizontalAlign>Center</groupHorizontalAlign>
+        <groupVerticalAlign>Center</groupVerticalAlign>
+        <extInfo xsi:type="form:PictureDecorationExtInfo">
+          <nonselectedPictureText>
+            <key>ru</key>
+            <value>Заказ перемещен на текущее рабочее место</value>
+          </nonselectedPictureText>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Страница кнопка переместить заказ</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Страница кнопка переместить заказ</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>СтраницаЗаказПеремещенРасширеннаяПодсказка</name>
+        <id>614</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo">
+        <group>Vertical</group>
+        <showTitle>true</showTitle>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
       <name>СтраницаРасхождений</name>
       <id>513</id>
       <items xsi:type="form:Decoration">
@@ -3421,6 +3793,98 @@
       <picture xsi:type="form:FormPicture"/>
     </items>
     <items xsi:type="form:Button">
+      <name>ОтложитьРассмотрение</name>
+      <id>592</id>
+      <title>
+        <key>ru</key>
+        <value>Отложить принятие решения</value>
+      </title>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОтложитьРассмотрениеРасширеннаяПодсказка</name>
+        <id>593</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Form.Command.ОтложитьРассмотрение</commandName>
+      <representation>PictureAndText</representation>
+      <width>20</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>2</height>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <placementArea>UserCmds</placementArea>
+      <backColor xsi:type="core:ColorDef">
+        <red>255</red>
+        <green>232</green>
+        <blue>179</blue>
+      </backColor>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+        <height>20.0</height>
+      </font>
+      <picture xsi:type="form:FormPicture"/>
+    </items>
+    <items xsi:type="form:Button">
+      <name>КомандаПереместитьЗаказ</name>
+      <id>607</id>
+      <title>
+        <key>ru</key>
+        <value>Переместить заказ</value>
+      </title>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>КомандаПереместитьЗаказРасширеннаяПодсказка</name>
+        <id>608</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Form.Command.КомандаПереместитьЗаказ</commandName>
+      <representation>PictureAndText</representation>
+      <width>20</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>2</height>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <placementArea>UserCmds</placementArea>
+      <backColor xsi:type="core:ColorDef">
+        <red>173</red>
+        <green>235</green>
+        <blue>192</blue>
+      </backColor>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+        <height>20.0</height>
+      </font>
+      <picture xsi:type="form:FormPicture"/>
+    </items>
+    <items xsi:type="form:Button">
       <name>КомандаПродолжить</name>
       <id>443</id>
       <title>
@@ -3549,9 +4013,9 @@
       <horizontalStretch>true</horizontalStretch>
       <placementArea>UserCmds</placementArea>
       <backColor xsi:type="core:ColorDef">
-        <red>165</red>
-        <green>224</green>
-        <blue>183</blue>
+        <red>255</red>
+        <green>232</green>
+        <blue>179</blue>
       </backColor>
       <font xsi:type="core:FontRef">
         <font>Style.NormalTextFont</font>
@@ -3681,7 +4145,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessor.АРМКонтролера</types>
+      <types>ExternalDataProcessorObject.АРМКонтролера</types>
     </valueType>
     <view>
       <common>true</common>
@@ -5097,6 +5561,40 @@
       </edit>
     </columns>
   </attributes>
+  <attributes>
+    <name>РазрешитьОткладыватьБлокировку</name>
+    <title>
+      <key>ru</key>
+      <value>Разрешить откладывать блокировку</value>
+    </title>
+    <id>42</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТекущийКонтроллер</name>
+    <title>
+      <key>ru</key>
+      <value>Текущий контроллер</value>
+    </title>
+    <id>43</id>
+    <valueType>
+      <types>CatalogRef.Пользователи</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ВыполнитьОтгрузку</name>
     <title>
@@ -5396,6 +5894,48 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОтложитьРассмотрение</name>
+    <title>
+      <key>ru</key>
+      <value>Отложить рассмотрение</value>
+    </title>
+    <id>16</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Отложить рассмотрение</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОтложитьРасхождение</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КомандаПереместитьЗаказ</name>
+    <title>
+      <key>ru</key>
+      <value>Переместить заказ</value>
+    </title>
+    <id>17</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Команда переместить заказ</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаПереместитьЗаказ</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
