@@ -4145,7 +4145,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessorObject.АРМКонтролера</types>
+      <types>ExternalDataProcessor.АРМКонтролера</types>
     </valueType>
     <view>
       <common>true</common>
@@ -5587,6 +5587,23 @@
     <id>43</id>
     <valueType>
       <types>CatalogRef.Пользователи</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ДокументРеализацияТоваров</name>
+    <title>
+      <key>ru</key>
+      <value>Документ реализация товаров</value>
+    </title>
+    <id>53</id>
+    <valueType>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
     </valueType>
     <view>
       <common>true</common>
